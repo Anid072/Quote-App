@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@300&family=Inter:wght@600&family=Kalnia&family=Open+Sans&family=Oswald&family=Playfair+Display:ital@1&family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-image: url(./img/3045833-business_close-up_code_coding_computer_dark_data_development_display_electronics_hacking_html_internet_light_monitor_programmer_programming_screen_software_technology_work_worki.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-block: 40px;
+}
+
+.navbar{
+    width: 30%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    color:white;
+    border: 1.5px solid rgba(218, 208, 208, 0.647);
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.box{
+    width: 50%;
+    height: auto;
+    color: white;
+    border: 1.5px solid rgba(218, 208, 208, 0.647) ;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-block: 30px;
+}
+.box h1{
+    font-size: 38px;
+}
+.box p{
+    padding-top: 30px;
+}
+.box span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-inline: 20px;
+}
+
+.box button{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    border: 1.5px solid gray;
+    border-radius: 8px;
+    background-color:transparent;
+    color: white;
+    margin-right: 10px;
+
+}
+.btn:hover{
+    background-color: green;
+    border: none;
+}
+.btn-2:hover{
+    background-color: red;
+    border: none;
+}
+
+
+
+@media (max-width: 768px){
+
+    .container{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .navbar{
+        width: 65%;
+    }
+    .box{
+        width: 90%;
+    }
+}
